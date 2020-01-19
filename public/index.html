@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Queremos ser Millonarias</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img class="logo" src="./images/logo.png" alt="logo"/>
+        </header>
+        <main>
+            <section class="question">
+                <p class="question__statement">¿Qué propiedad de 'Window' nos permite almacenar los datos que introduce el usuario para que puedan seguir mostrándose en pantalla tras actualizar la página?</p>
+                <form id="vote-form" class="question__options">
+                    <label for="A" class="question__options-option" id="aA">
+                        <input type="radio" name="os" id="A" value="A">
+                        <p>A: Router.</p>
+                    </label>
+                    <label for="B" class="question__options-option" id="aB">
+                        <input type="radio" name="os" id="B" value="B">
+                        <p>B: Navigator.</p>
+                    </label>
+                    <label for="C" class="question__options-option" id="aC">
+                        <input type="radio" name="os" id="C" value="C">
+                        <p>C: LocalStorage.</p>
+                    </label>
+                    <label for="D" class="question__options-option" id="aD">
+                        <input type="radio" name="os" id="D" value="D">
+                        <p>D: console.log( )</p>
+                    </label>
+                    <input type="submit" value="Responder" class="btn" id="btn">
+                </form>
+                <div class="modal" id="modal">
+                    <img src="./images/logo.png" alt="logo" class="modal__logo"/>
+                    <h2>¡Muchas gracias por responder!.</h2>
+                    <a href="http://beta.adalab.es/project-promo-h-module-3-team-3-afternoon/">
+                        <p>Ir a la página de nuestro proyecto.</p>
+                    </a>
+                </div>
+            </section>
+            <section class="results">
+                <div class="results__wrapper">
+                    <div id="chart-container" style="height: 400px; width: 100%"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- PUSHER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/5.0.2/pusher.min.js" integrity="sha256-vOxviKM/QBcMYxoY51Rbfk1ePvAeH/PNSRLv1egfhts=" crossorigin="anonymous"></script>
+    <!-- CANVAS-GRAPHIC -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha256-CIc5A981wu9+q+hmFYYySmOvsA3IsoX+apaYlL0j6fg=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

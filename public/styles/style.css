@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap');
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 150px;
+    margin: auto;
+}
+
+.question{
+    text-align: center;
+    margin: 0px;
+    height: calc(100vh - 160px);
+}
+
+.question__statement{
+    padding: 20px;
+    margin: 0px;
+}
+
+.question__options{
+    width: 100%;
+
+}
+
+.question__options-option{
+    display: block;
+    width: 100%;
+    height: 41px;
+    margin: 10px 0;
+    background-image: url('../images/option-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 41px;
+    text-align: left;
+    padding-left: calc(50% - 140px);
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    visibility: hidden;
+}
+
+.option-selected{
+    background-image: url('../images/option-background-selected.png');
+    color: rgb(34, 1, 77);
+}
+
+.question__options-option p{
+    width: 50%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(grey, lightgrey);
+    border-radius: 15px;
+    color:  rgb(34, 1, 77);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.results{
+    width: 100%;
+    display: none;
+    padding-top: 30px;
+}
+
+.results__wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+.modal{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('../images/background.png');
+    padding: 20px;
+}
+
+.modal a{
+    background-image: linear-gradient(grey, lightgrey);
+    color:  rgb(34, 1, 77);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.show-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (min-width: 768px){
+
+    .logo{
+        width: 230px;
+    }
+
+    .question{
+        display: none;
+    }
+
+    .results{
+        display: block;
+    }
+}
