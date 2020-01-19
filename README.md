@@ -1,7 +1,9 @@
 
 # Voting App.
 
-This is a side project I developed during the last week of Adalab's bootcamp. As a team, we decided to recreate the spanish version of the famous game show *Who wants to be a millionaire* for the demo of our project. (It was a very familiar project to all the attendees, so there was no need for an in-depth demonstration of the project and its functionalities).
+This is a side project I developed during the last week of Adalab's bootcamp. 
+
+As a team, we decided to recreate the spanish version of the famous game show *Who wants to be a millionaire* for the demo of our project. (It was a very familiar project to all the attendees, so there was no need for an in-depth demonstration of the project and its functionalities).
 This app allowed the public to vote for the correct answer to one of the questions during the demo. It collects the votes live and shows them on a dinamic chart that is updated with every vote the database gets.
 
 For the purpose of making it easier to manage during the demo, I designed the app so it displays the voting results on desktop and the voting form on mobile. This means that if you want to test it you would need both a large and a small device to get the full experience.
