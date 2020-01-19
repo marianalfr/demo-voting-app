@@ -10,8 +10,8 @@ For the purpose of making it easier to manage during the demo, I designed the ap
 
 Once the user has voted, they can visit our project's website.
 
-![VA-mobile](./VA-mobile.jpg){: width=150 style="float:left;"}
-![VA-modal](./VA-modal.jpg){: width=150 style="float:right;"}
+![VA-mobile](./VA-mobile.png)
+![VA-modal](./VA-modal.png)
 ![VA-desktop](./VA-desktop.png)
 
 ----
